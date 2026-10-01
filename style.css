@@ -14,7 +14,6 @@ body {
 .container {
     background-color: white;
     border: 1px solid rgb(178, 177, 177);
-
     margin: 20px;
     border-radius: 20px;
     height: 95%;
@@ -23,7 +22,7 @@ body {
 }
 
 .sidebox {
-    padding: 28px 22px;
+    padding: 30px 20px;
     border-right: 1px solid rgb(178, 177, 177);
     display: flex;
     flex-direction: column;
@@ -31,10 +30,10 @@ body {
 }
 
 .brand {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     text-decoration: none;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
     color: black;
 }
 
@@ -49,6 +48,7 @@ body {
     padding: 10px 12px;
     border-radius: 8px;
     color: rgb(99, 98, 98);
+    font-size: 15px;
 
 }
 
@@ -63,7 +63,7 @@ body {
     border-right: 1px solid rgb(178, 177, 177);
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 60%;
     overflow-y: auto;
 
 
@@ -71,14 +71,14 @@ body {
 
 .top {
     border-bottom: 0.5px solid rgb(178, 177, 177);
-    padding-bottom: 30px;
+    padding-bottom: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .top p {
-    margin-top: 7px;
+    margin-top: 5px;
 }
 
 .top button {
@@ -88,21 +88,21 @@ body {
     background-color: black;
     height: 40px;
     width: 130px;
-    position:relative ;
-   
+    position: relative;
+
 }
 
 
-.stats{
+.stats {
     justify-content: space-between;
     width: 100%;
     display: flex;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
-.box{
+.box {
     width: 30%;
-    height: 100px;
+    height: 90px;
     border-radius: 15px;
     border: 0.5px solid rgb(178, 177, 177);
     display: flex;
@@ -111,61 +111,124 @@ body {
     justify-content: center;
 }
 
-.box p{
+.box h2 {
+    font-size: 020px;
+}
+
+.box p {
     font-weight: lighter;
     margin-bottom: 3px;
 }
 
-.history{
+.history {
     justify-content: space-between;
     width: 100%;
     display: flex;
-    margin-top: 30px;
+    margin-top: 22px;
 }
+
 .box2 {
-    width: 47%;
-    height: 400px;
+    width: 49%;
+    height: 410px;
     border: 1px solid #ddd;
     border-radius: 15px;
-    padding: 25px;
+    padding: 18px 26px;
     box-sizing: border-box;
 }
 
 .box2 h3 {
-    font-size: 25px;
-    /* margin: 15px 0 30px; */
+    font-size: 20px;
+    margin: 5px 0 10px;
 }
 
 .box2 label {
-    font-size: 19px;
-    color: #777;
+    font-size: 16px;
+    color: black;
 }
 
-.box2 input,
-.box2 select {
+.box2 input {
     width: 100%;
-    height: 40px;
-    margin: 10px 0 20px;
+    height: 23px;
+    margin: 7px 0 15px;
     border: 2px solid #ddd;
     border-radius: 7px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 22px;
+    font-size: 16px;
+
+}
+
+.box2 select {
+    width: 100%;
+    height: 35px;
+    border: 2px solid #ddd;
+    margin: 7px 0 15px;
+
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #777;
 }
 
 .box2 button {
     width: 100%;
-    height: 40px;
+    height: 34px;
     border: none;
     border-radius: 7px;
     background: #171717;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
+    padding: 3px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 0.3px solid #ddd;
+    padding-bottom: 10px;
+}
+
 .reportbox {
-    padding: 28px 22px;
+    padding: 30px 14px;
     display: flex;
     flex-direction: column;
     width: 20%;
 }
 
+.budget {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+.budget div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.budget div:first-child a {
+    text-decoration: none;
+    color: rgb(55, 92, 116);
+}
+
+.budget p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.bar{
+    width: 100%;
+    height: 5px;
+    margin-top: 9px;
+    border-radius: 4px;
+    background-color: #b8b8b8;
+}

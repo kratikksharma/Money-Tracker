@@ -51,13 +51,14 @@
                     <h3>Quick add</h3>
 
                     <label>Expense name</label>
-                    <input name="name" type="text" placeholder="e.g. Lunch" required>
+                    <input name="name" type="text" placeholder="" required>
 
                     <label>Amount</label>
-                    <input name="amount" type="number" placeholder="0" required>
+                    <input name="amount" type="number" placeholder="₹" required>
 
                     <label>Category</label>
                     <select name="category">
+                        <option value="" disabled selected>Select an option</option>
                         <option>Food</option>
                         <option>Entertainment</option>
                         <option>Transportation</option>
@@ -74,11 +75,55 @@
                 </div>
                 <div class="box2">
                     <h3>Recent Activity</h3>
+                    <div>
+                        <div class="row">
+                            <div>
+                                <h4>Groceries</h4>
+                                <p> 28 Sept 2026 · Food</p>
+                            </div>
+                            <div>-₹850</div>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <h4>Freelance</h4>
+                                <p>27 Sept 2026 · Work</p>
+                            </div>
+                            <div>+₹5,500</div>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <h4> Uber
+                                </h4>
+                                <p> 26 Sept 2026 · Transportation</p>
+                            </div>
+                            <div> -₹250</div>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <h4>Movie</h4>
+                                <p> 25 Sept 2026 · Entertainment</p>
+                            </div>
+                            <div> -₹500</div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
         </div>
-        <div class="reportbox"></div>
+        <div class="reportbox">
+            <div class="budget">
+                <div>
+                    <h4>Monthly Budget</h4>
+                    <a href="/budgets.html">Manage</a>
+                </div>
+                <p>₹0 of ₹15,000</p>
+                <div class="bar">   </div>
+            </div>
+        </div>
     </div>
 </body>
 
