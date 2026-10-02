@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(224, 223, 223);
+    background-color: #111111;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-    background-color: white;
-    border: 1px solid rgb(178, 177, 177);
+    background-color: #181818;
+    border: 1px solid #333333;
     margin: 20px;
     border-radius: 20px;
     height: 95%;
@@ -23,7 +23,7 @@ body {
 
 .sidebox {
     padding: 30px 20px;
-    border-right: 1px solid rgb(178, 177, 177);
+    border-right: 1px solid #333333;
     display: flex;
     flex-direction: column;
     width: 15%;
@@ -34,7 +34,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     margin-bottom: 30px;
-    color: black;
+    color: white;
 }
 
 .tabs {
@@ -47,51 +47,48 @@ body {
     text-decoration: none;
     padding: 10px 12px;
     border-radius: 8px;
-    color: rgb(99, 98, 98);
+    color: #999999;
     font-size: 15px;
-
 }
 
 .tabs a:hover,
 .tabs a.active {
-    color: black;
-    background: rgba(198, 198, 198, 0.346);
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .mainbox {
     padding: 30px 30px;
-    border-right: 1px solid rgb(178, 177, 177);
+    border-right: 1px solid #333333;
     display: flex;
     flex-direction: column;
     width: 60%;
     overflow-y: auto;
-
-
 }
 
 .top {
-    border-bottom: 0.5px solid rgb(178, 177, 177);
+    border-bottom: 0.5px solid #333333;
     padding-bottom: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .top p {
     margin-top: 5px;
+    color: #999999;
 }
 
 .top button {
     border-radius: 10px;
     border-style: none;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     height: 40px;
     width: 130px;
     position: relative;
-
 }
-
 
 .stats {
     justify-content: space-between;
@@ -104,11 +101,12 @@ body {
     width: 30%;
     height: 90px;
     border-radius: 15px;
-    border: 0.5px solid rgb(178, 177, 177);
+    border: 0.5px solid #333333;
     display: flex;
     flex-direction: column;
     padding-left: 15px;
     justify-content: center;
+    color: white;
 }
 
 .box h2 {
@@ -118,6 +116,7 @@ body {
 .box p {
     font-weight: lighter;
     margin-bottom: 3px;
+    color: #999999;
 }
 
 .history {
@@ -130,10 +129,11 @@ body {
 .box2 {
     width: 49%;
     height: 410px;
-    border: 1px solid #ddd;
+    border: 1px solid #333333;
     border-radius: 15px;
     padding: 18px 26px;
     box-sizing: border-box;
+    color: white;
 }
 
 .box2 h3 {
@@ -143,31 +143,32 @@ body {
 
 .box2 label {
     font-size: 16px;
-    color: black;
+    color: white;
 }
 
 .box2 input {
     width: 100%;
     height: 23px;
     margin: 7px 0 15px;
-    border: 2px solid #ddd;
+    border: 2px solid #333333;
     border-radius: 7px;
     padding: 15px;
     box-sizing: border-box;
     font-size: 16px;
-
+    background-color: #222222;
+    color: white;
 }
 
 .box2 select {
     width: 100%;
     height: 35px;
-    border: 2px solid #ddd;
+    border: 2px solid #333333;
     margin: 7px 0 15px;
-
     border-radius: 7px;
     padding-left: 10px;
     font-size: 16px;
-    color: #777;
+    color: #999999;
+    background-color: #222222;
 }
 
 .box2 button {
@@ -175,8 +176,8 @@ body {
     height: 34px;
     border: none;
     border-radius: 7px;
-    background: #171717;
-    color: white;
+    background: white;
+    color: black;
     font-size: 15px;
     padding: 3px;
 }
@@ -188,7 +189,7 @@ body {
     align-items: center;
     width: 100%;
     margin-top: 20px;
-    border-bottom: 0.3px solid #ddd;
+    border-bottom: 0.3px solid #333333;
     padding-bottom: 10px;
 }
 
@@ -199,36 +200,47 @@ body {
     width: 20%;
 }
 
-.budget {
+.boxx {
     width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
+    border: 1px solid #333333;
     border-radius: 15px;
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
-
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
 }
 
-.budget div:first-child {
+.boxx div:first-child {
     display: flex;
     justify-content: space-between;
 }
 
-.budget div:first-child a {
+.boxx div:first-child a {
     text-decoration: none;
-    color: rgb(55, 92, 116);
+    color: #8ab4d6;
 }
 
-.budget p{
-    margin-top: 10px;
+.boxx p {
+    margin-top: 15px;
     font-size: 16px;
 }
 
-.bar{
+.bar {
     width: 100%;
     height: 5px;
-    margin-top: 9px;
+    margin-top: 14px;
     border-radius: 4px;
-    background-color: #b8b8b8;
+    background-color: #444444;
+}
+.budget{
+    height: 120px;
+}
+
+.expense{
+    height: 120px;
+    margin-top: 10px;
 }
