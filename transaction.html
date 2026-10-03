@@ -42,12 +42,73 @@
                 </div>
                 <div class="box">
                     <p>Balance</p>
-                    <h2>₹9,776</h2>
+                    <h2>₹1,19,776</h2>
                 </div>
             </div>
 
+
+            <div class="alltranscations">
+                <div>
+                    <h2>All Transactions</h2>
+                    <input type="search" placeholder="Search">
+                </div>
+
+                <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                        </tr>
+                </table>
+            </div>
+
         </div>
-        <div class="reportbox"></div>
+        <div class="reportbox">
+
+            <div class="filterbox">
+                    <h3>Filters</h3>
+
+                    <label>Category</label>
+                    <select name="category">
+                        <option value="" disabled selected>All Category</option>
+                        <option>Food</option>
+                        <option>Entertainment</option>
+                        <option>Transportation</option>
+                        <option>Shopping</option>
+                        <option>Other</option>
+                    </select>
+                    <label>Type</label>
+                    <select name="Type">
+                        <option value="" disabled selected>All Types</option>
+                        <option value="">Income</option>
+                        <option value="">Expense</option>
+                    </select>                    
+
+                    <label>Date</label>
+                    <input name="date" type="date" required>
+
+                    <button class="expense-btn" type="submit">
+                        Add expense
+                    </button>
+
+                    <button class="expense-btn" type="submit">
+                        Clear
+                    </button>
+
+                </div>
+
+
+
+            <div class="expense boxx">
+                <div>
+                    <h4>This Month</h4>
+                </div>
+                <p>No spending this month.</p>
+            </div>
+
+        </div>
     </div>
 </body>
 
