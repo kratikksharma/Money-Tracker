@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #6895f6 0%, #BFDBFE 45%, #FFFFFF 100%);
+}
+
+.loginbox {
+    width: 390px;
+    padding: 38px;
+    background-color: #FFFFFF;
+    border: 1px solid #DCE5F0;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(23, 43, 77, 0.10);
+}
+
+.logo {
+    color: #2563EB;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 27px;
+    margin-bottom: 7px;
+    color: #172B4D;
+}
+
+.subtitle {
+    color: #8492A6;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    color: #344563;
+}
+
+input[type="email"],
+input[type="password"] {
+    height: 42px;
+    border: 1px solid #D5DFEC;
+    border-radius: 8px;
+    padding: 0 12px;
+    margin-bottom: 18px;
+    background-color: #F8FAFD;
+    color: #172B4D;
+    outline: none;
+    font-size: 14px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #2563EB;
+    background-color: #FFFFFF;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0 22px;
+    font-size: 13px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #718096;
+}
+
+.options input {
+    accent-color: #2563EB;
+}
+
+.options a {
+    color: #2563EB;
+    text-decoration: none;
+}
+
+.button {
+    height: 43px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #1D4ED8;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #8492A6;
+}
+
+.signup a {
+    color: #2563EB;
+    text-decoration: none;
+    font-weight: 600;
+}

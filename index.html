@@ -4,136 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tracker</title>
-    <link rel="stylesheet" href="style.css">
+    <title>FlowCash - Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="sidebox">
-            <a class="brand" href="index.html">FlowCash</a>
-            <div class="tabs">
-                <a class="active" href="index.html">Dashboard</a>
-                <a href="transaction.html">Transactions</a>
-                <a href="reports.html">Reports</a>
-                <a href="budgets.html">Budgets</a>
-                <a href="settings.html">Settings</a>
-            </div>
-        </div>
 
-        <div class="mainbox">
-            <div class="top">
-                <div>
-                    <h1>Hello, Kratik</h1>
-                    <p>Welcome back</p>
-                </div>
+    <div class="loginbox">
 
-                <button>Add Expense</button>
-            </div>
+        <div class="logo">FlowCash</div>
 
-            <div class="stats">
-                <div class="box">
-                    <p>Outcome</p>
-                    <h2>₹1234</h2>
-                </div>
-                <div class="box">
-                    <p>Income</p>
-                    <h2>₹10,000</h2>
-                </div>
-                <div class="box">
-                    <p>Balance</p>
-                    <h2>₹9,776</h2>
-                </div>
+        <h1>Welcome back</h1>
+        <p class="subtitle">Login to manage your finances</p>
+
+        <form>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" >
+
+            <div class="options">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#">Forgot password?</a>
             </div>
 
-            <div class="history">
-                <div class="box2">
-                    <h3>Quick add</h3>
+            <a class=button href="dashboard.html">Login</a>
+        </form>
 
-                    <label>Expense name</label>
-                    <input name="name" type="text" placeholder="" required>
+        <p class="signup">
+            Don't have an account?
+            <a href="#">Create account</a>
+        </p>
 
-                    <label>Amount</label>
-                    <input name="amount" type="number" placeholder="₹" required>
-
-                    <label>Category</label>
-                    <select name="category">
-                        <option value="" disabled selected>Select an option</option>
-                        <option>Food</option>
-                        <option>Entertainment</option>
-                        <option>Transportation</option>
-                        <option>Shopping</option>
-                        <option>Other</option>
-                    </select>
-
-                    <label>Date</label>
-                    <input name="date" type="date" required>
-
-                    <button class="expense-btn" type="submit">
-                        Add expense
-                    </button>
-                </div>
-                <div class="box2">
-                    <h3>Recent Activity</h3>
-                    <div>
-                        <div class="row">
-                            <div>
-                                <h4>Groceries</h4>
-                                <p> 28 Sept 2026 · Food</p>
-                            </div>
-                            <div>-₹850</div>
-                        </div>
-
-                        <div class="row">
-                            <div>
-                                <h4>Freelance</h4>
-                                <p>27 Sept 2026 · Work</p>
-                            </div>
-                            <div>+₹5,500</div>
-                        </div>
-
-                        <div class="row">
-                            <div>
-                                <h4> Uber
-                                </h4>
-                                <p> 26 Sept 2026 · Transportation</p>
-                            </div>
-                            <div> -₹250</div>
-                        </div>
-
-                        <div class="row">
-                            <div>
-                                <h4>Movie</h4>
-                                <p> 25 Sept 2026 · Entertainment</p>
-                            </div>
-                            <div> -₹500</div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="reportbox">
-            <div class="budget boxx">
-                <div>
-                    <h4>Monthly Budget</h4>
-                    <a href="/budgets.html">Manage</a>
-                </div>
-                <p>₹0 of ₹15,000</p>
-                <div class="bar"></div>
-            </div>
-
-            <div class="expense boxx">
-                <div>
-                    <h4>Top spending</h4>
-                    <a href="/transaction.html">Expense</a>
-                </div>
-                <p>No expenses this month.</p>
-            </div>
-
-        </div>
     </div>
+
 </body>
 
 </html>

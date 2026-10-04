@@ -1,26 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tracker</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
         <div class="sidebox">
-            <a class="brand" href="index.html">FlowCash</a>
+            <a class="brand" href="dashboard.html">FlowCash</a>
             <div class="tabs">
-                <a href="index.html">Dashboard</a>
+                <a href="dashboard.html">Dashboard</a>
                 <a href="transaction.html">Transactions</a>
                 <a href="reports.html">Reports</a>
-                <a href="budgets.html">Budgets</a>
                 <a class="active" href="settings.html">Settings</a>
             </div>
         </div>
 
-        <div class="mainbox"></div>
-        <div class="reportbox"></div>
+        <div class="mainbox">
+
+            <div class="top">
+                <div>
+                    <h1>Settings</h1>
+                    <p>Manage Your Account</p>
+                </div>
+            </div>
+
+            <div class="settings">
+
+                <div class="settingbox">
+                    <h3>Account Information</h3>
+                    <p>Update your account details</p>
+
+                    <label>Account Name</label>
+                    <input type="text" value="Kratik Sharma">
+
+                    <label>Email</label>
+                    <input type="email" value="kratiksharma25@gmail.com">
+
+                    <label>Phone Number</label>
+                    <input type="tel" value="+91 6378767624">
+
+                    <button>Save Changes</button>
+                </div>
+
+
+
+                <div class="settingbox">
+                    <h3>Preferences</h3>
+                    <p>Manage your FlowCash preferences</p>
+
+                    <div class="preference">
+                        <span>Email Notifications</span>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="preference">
+                        <span>Monthly Expense Summary</span>
+                        <input type="checkbox">
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="reportbox">
+
+            <div class="settingbox">
+                <h3>Rate Our Website</h3>
+                <p>How was your experience with FlowCash?</p>
+
+                <div class="stars">
+                    <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+
+                <textarea placeholder="Write your feedback..."></textarea>
+
+                <button>Submit Review</button>
+            </div>
+
+
+            <div class="logout">
+                <h3>Logout</h3>
+                <p>Sign out from your FlowCash account</p>
+
+                <a class=logoutbtn href="index.html">Logout</a>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
